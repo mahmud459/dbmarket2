@@ -1,0 +1,31 @@
+
+
+.seller-item {
+    background-color: #f3ebff;
+    border-radius: 16px;
+    overflow: hidden;
+    padding: clamp(1.5rem, -2.38rem + 8.082vw, 4.6875rem) clamp(1.5rem, -.174rem + 3.487vw, 2.875rem);
+    position: relative;
+    z-index: 1;
+}
+.seller-item.seller-right{
+    background-color: #ffcbe7;
+}
+
+/* start sepport 12 col  */
+.support {
+    background-color: #ffeff4;
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 16px;
+    position: relative;
+}
+.arrow-shape {
+    left: 31%;
+    max-width: 28%;
+    position: absolute;
+    top: 31%;
+}
+.up-section-header{
+    margin-bottom: 100px;
+}
