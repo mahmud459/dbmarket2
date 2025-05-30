@@ -5,10 +5,7 @@ import brand4 from './assets/imgs/brand-img4.png'
 import patern from './assets/imgs/pattern.png'
 import footerbg from './assets/imgs/footer-gradient.png'
 import whitLogo from './assets/imgs/white-logo.png'
-
-
-
-
+import './Footer.css'
 
 
 function SiteFooter (){

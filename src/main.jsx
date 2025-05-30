@@ -5,7 +5,7 @@ import './featured.css'
 import App from './App.jsx'
 import './TopPerformance.css'
 import './articles.css'
-import './Footer.css'
+// import './Footer.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

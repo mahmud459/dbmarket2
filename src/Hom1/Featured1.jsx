@@ -1,13 +1,13 @@
-import featured from "./assets/imgs/featured-gradient.png";
-import spiderNet from "./assets/imgs/spider-net.png";
-import brand from "./assets/imgs/author-img.png";
-import curve from "./assets/imgs/pattern-curve-three.png";
-import prodect from "./assets/imgs/product-img4.png";
-import prodect2 from "./assets/imgs/product-img11.png";
+import featured from "../assets/imgs/featured-gradient.png";
+import spiderNet from "../assets/imgs/spider-net.png";
+import brand from "../assets/imgs/author-img.png";
+import curve from "../assets/imgs/pattern-curve-three.png";
+import prodect from "../assets/imgs/product-img4.png";
+import prodect2 from "../assets/imgs/product-img11.png";
 
-const FeaturedAuthor = () => {
-  return (
-    <section className="w-100 position-relative  overflow-hidden  my-section ">
+function Featuredup (){
+    return(
+        <section className="w-100 position-relative  overflow-hidden  my-section mb-5 ">
       {/* Background Image */}
       <img
         src={featured}
@@ -26,7 +26,7 @@ const FeaturedAuthor = () => {
       </div>
       <div className="container-fluid py-5  ">
         <div className="container">
-          <div className="row ">
+          <div className="row d-flex flex-row-reverse justify-content-between">
             <div className="col-xl-5">
               <div className="section-content">
                 <div className="section-heading style-left">
@@ -37,24 +37,13 @@ const FeaturedAuthor = () => {
                     content specialists.
                   </p>
                 </div>
-                <div className="section-info d-flex align-items-center gab-3">
-                  <div className="brand me-5">
-                    <img src={brand} alt="" />
-                  </div>
-                  <div className="info-content">
-                    <h1>Amplify</h1>
-                    <span>Member Since 2021</span>
-                  </div>
-                </div>
+                
                 <div className="buttons d-flex align-items-center mt-5 ">
                   <a
                     href="#"
                     className="btn btn-lg rounded-pill no-hover fw-300"
                   >
                     View Profile
-                  </a>
-                  <a href="#" className="btn btn-lg rounded-pill ms-2">
-                    Follw
                   </a>
                 </div>
               </div>
@@ -288,7 +277,7 @@ const FeaturedAuthor = () => {
         </div>
       </div>
     </section>
-  );
+    );
 };
 
-export default FeaturedAuthor;
+export default Featuredup ;
